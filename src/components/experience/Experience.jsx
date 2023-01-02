@@ -5,7 +5,7 @@ import './experience.css';
 const Experience = () => {
   return (
     <section id="experience">
-      <h5></h5>
+      <h5>Stuff I know</h5>
       <h2>Technologies</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -54,15 +54,23 @@ const Experience = () => {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Google Oauth</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Amazon AWS</h4>
+            </article>
+            {/* <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Heroku</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>RSpec</h4>
-            </article>
+            </article> */}
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Git/GitHub</h4>
+              <h4>GitHub</h4>
             </article>
           </div>
         </div>

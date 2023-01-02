@@ -3,8 +3,8 @@ import IMG1 from '../../assets/spaceman.png';
 import IMG2 from '../../assets/codemonk.png';
 import IMG3 from '../../assets/mistate.png';
 import IMG4 from '../../assets/spotlabs.png';
-import IMG5 from '../../assets/news.png';
-import IMG6 from '../../assets/math.png';
+// import IMG5 from '../../assets/news.png';
+// import IMG6 from '../../assets/math.png';
 
 import './portfolio.css';
 
@@ -75,7 +75,6 @@ const Portfolio = () => {
     <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
-
       <div className="container portfolio__container">
         {soloProjects.map((pro) => (
           <article className="portfolio__item" key={pro.id}>
@@ -102,12 +101,12 @@ const Portfolio = () => {
                 className="btn btn-primary"
                 rel="noreferrer"
               >
-                Visit Website
+                Take a Look
               </a>
             </div>
           </article>
         ))}
-      </div>
+        </div>
     </section>
   );
 };

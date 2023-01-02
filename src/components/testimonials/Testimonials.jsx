@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsLinkedin } from 'react-icons/bs';
-import { Pagination, Navigation } from 'swiper';
+import { Autoplay, Pagination, Navigation } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -10,6 +10,9 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import './testimonials.css';
+
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 const Testimonials = () => {
   const testimonials = [
@@ -51,14 +54,20 @@ const Testimonials = () => {
   ];
   return (
     <section id="testmonials">
-      <h5>Feedback from my peers</h5>
-      <h2>Testimonials</h2>
+      <h5>What others say about me</h5>
+      <h2>Peer Feedback</h2>
       <Swiper 
         className="container testimonials__container"
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay, Navigation]}
         spaceBetween={40}
+        loop={true}
         slidesPerView={1}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
         pagination={{ clickable: true }}
+        navigation={true}
         >
         {testimonials.map((test) => (
           <SwiperSlide className="testimonial" key={test.id}>
