@@ -28,7 +28,7 @@ const Testimonials = () => {
       link: 'https://www.linkedin.com/in/kristina-lim-01/',
       name: 'Kris Lim',
       role: 'Team member',
-      test: "It was a pleasure collaborating with Corey on our project. He showed great determinatin and creativity in problem solving and trouble shooting any issues we had during development.  I would be happy to work with him in the future!",
+      test: "It was a pleasure collaborating with Corey on our project. He showed great determination and creativity in problem solving and trouble shooting any issues we had during development.  I would be happy to work with him in the future!",
     },
     // {
     //   id: 3,
@@ -63,7 +63,7 @@ const Testimonials = () => {
         loop={true}
         slidesPerView={1}
         autoplay={{
-          delay: 3500,
+          delay: 5500,
           disableOnInteraction: false,
         }}
         pagination={{ clickable: true }}
