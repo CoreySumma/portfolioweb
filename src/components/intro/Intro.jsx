@@ -1,6 +1,7 @@
 import React from 'react';
-import { FaAward } from 'react-icons/fa';
+// import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
+import { RiUserStarFill } from 'react-icons/ri';
 import ME from '../../assets/me.JPEG';
 import './intro.css';
 
@@ -18,7 +19,7 @@ const Intro = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
+              <RiUserStarFill className="about__icon" />
               <h5>Experience</h5>
               <small>1 year</small>
             </article>

@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/cv_meri_gogichashvili.pdf';
+import CV from '../../assets/coreysumma.pdf';
 // import {BsChatSquareTextFill} from 'react-icons/bs'
 
 const CTA = () => {
@@ -9,7 +9,7 @@ const CTA = () => {
         Download CV
       </a>
       <a href="#contact" className="btn btn-primary">
-        Get In touch
+        Get In Touch
       </a>
     </div>
   );
