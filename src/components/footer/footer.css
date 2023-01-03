@@ -27,15 +27,15 @@ footer a {
 
 .footer__socials {
     display: flex;
-    justify-content: space-evenly;
-    gap: 1rem;
-    margin-bottom: 5rem;
+    justify-content: center;
+    gap: 11.3rem;
+    margin-bottom: 6rem;
 }
 
 .footer__socials a {
     background: black;
     color: var(--color-white);
-    padding: 0.8rem;
+    padding: .5rem .5rem .5rem .5rem;
     border-radius: 0.7rem;
     display: flex;
     border: 1px solid transparent;
@@ -58,7 +58,12 @@ footer a {
         gap: 1.5rem;
     }
 
+    footer {
+        font-size: 3rem;
+    }
+
     .footer__socials {
-        margin-bottom: 2.6rem;
+        margin-bottom: 6rem;
+        gap: 1.6rem;
     }
 }
