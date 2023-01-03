@@ -44,7 +44,7 @@ const Portfolio = () => {
       title: 'MiState',
       img: IMG3,
       description:
-        'A MERN stack mindfulness app designed to track a users emotional state. As a user you are able to edit entries and clean the slate to start each week fresh! Are you ready for some self reflection?',
+        'A MERN stack mindfulness app designed to track a users emotional state with daily entries that are dynamically organized.',
       technologies: 'HTML | CSS | JavaScript | React | Node | Express | MongoDB | Bootstrap',
       link: 'https://mistate.herokuapp.com/',
       github: 'https://github.com/CoreySumma/mern-mistate',
