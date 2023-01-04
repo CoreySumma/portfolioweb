@@ -28,7 +28,7 @@ const Testimonials = () => {
       link: 'https://www.linkedin.com/in/kristina-lim-01/',
       name: 'Kris Lim',
       role: 'Team member',
-      test: "It was a pleasure collaborating with Corey on our project. He showed great determination and creativity in problem solving and trouble shooting any issues we had during development.  I would be happy to work with him in the future!",
+      test: "Corey is a reliable teammate and a hardworking programmer that I had the pleasure of collaborating and working with. During our time for a group project, he continued to impress me with his insight into some problems we had run into and communicated it with precision. His dependability and strong work ethic is what makes him a great developer and a teammate.",
     },
     // {
     //   id: 3,
