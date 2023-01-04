@@ -17,6 +17,13 @@ import "swiper/css/navigation";
 const Testimonials = () => {
   const testimonials = [
     {
+      id: 3,
+      link: 'https://www.linkedin.com/in/andrew-krauss-0063ab109/',
+      name: 'Andrew Krauss',
+      role: 'Classmate',
+      test: "Corey works extremely hard and is always willing to lend a helping hand or collaborate on a project. He's smart and has a strong work ethic that is infectious and promotes a high degree of productivity. I admire the passion he shows for his craft and his hunger to learn more and more about it. Working with him was a pleasure and I hope I get the opportunity to do so again in the near future.",
+    },
+    {
       id: 1,
       link: 'https://www.linkedin.com/in/taylor-romoser/',
       name: 'Taylor Romoser',
@@ -30,13 +37,6 @@ const Testimonials = () => {
       role: 'Team member',
       test: "Corey is a reliable teammate and a hardworking programmer that I had the pleasure of collaborating and working with. During our time for a group project, he continued to impress me with his insight into some problems we had run into and communicated it with precision. His dependability and strong work ethic is what makes him a great developer and a teammate.",
     },
-    // {
-    //   id: 3,
-    //   link: 'https://www.linkedin.com/in/akuu-khan/',
-    //   name: 'akbar (Aku) Khan',
-    //   role: 'Full Stack Developer| Ruby on Rails | PostgreSQL | JavaScript | React | Redux | Html&Css | Python.',
-    //   test: 'I worked with Meri in the same team and her communication skills are very strong. Her programming skill is one of the bests, given the time frame in the field. She is a good team player.  She will probably fit in most of the companies not only because she\'s a good team worker, but also because she has very good skills and I know she has much more potential to be shown.',
-    // },
     // {
     //   id: 4,
     //   link: 'https://www.linkedin.com/in/isaicespedes/',
