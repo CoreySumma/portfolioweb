@@ -2,7 +2,7 @@ import React from 'react';
 import IMG1 from '../../assets/spaceman.png';
 import IMG2 from '../../assets/codemonk.png';
 import IMG3 from '../../assets/mistate.png';
-import IMG4 from '../../assets/spotlabs.png';
+import IMG4 from '../../assets/spotlabs2.png';
 // import IMG5 from '../../assets/news.png';
 // import IMG6 from '../../assets/math.png';
 

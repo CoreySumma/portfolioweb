@@ -17,21 +17,21 @@ import "swiper/css/navigation";
 const Testimonials = () => {
   const testimonials = [
     {
-      id: 3,
+      id: 1,
       link: 'https://www.linkedin.com/in/andrew-krauss-0063ab109/',
       name: 'Andrew Krauss',
       role: 'Classmate',
       test: "Corey works extremely hard and is always willing to lend a helping hand or collaborate on a project. He's smart and has a strong work ethic that is infectious and promotes a high degree of productivity. I admire the passion he shows for his craft and his hunger to learn more and more about it. Working with him was a pleasure and I hope I get the opportunity to do so again in the near future.",
     },
     {
-      id: 1,
+      id: 2,
       link: 'https://www.linkedin.com/in/taylor-romoser/',
       name: 'Taylor Romoser',
       role: 'Classmate',
       test: 'Corey has a strong foundation in both JavaScript and Python, and has a particularly impressive understanding of popular frameworks such as Express, React, and Django. Corey consistently produces high quality code and is always looking for ways to improve his skills and knowledge.',
     },
     {
-      id: 2,
+      id: 3,
       link: 'https://www.linkedin.com/in/kristina-lim-01/',
       name: 'Kris Lim',
       role: 'Team member',
