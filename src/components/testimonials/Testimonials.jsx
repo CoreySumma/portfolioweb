@@ -17,6 +17,13 @@ import "swiper/css/navigation";
 const Testimonials = () => {
   const testimonials = [
     {
+      id: 4,
+      link: 'https://www.linkedin.com/in/skimalee/',
+      name: 'Stephanie Lee',
+      role: 'Sr Instructional Associate',
+      test: "As Corey's former Software Engineering Immersive instructor at General Assembly, I fully support and recommend Corey to be a part of any Software Engineering team as a full-stack developer. Corey was always collaborative, motivated and hardworking. He was always very pro-active in learning and highly engaged. He also demonstrated being a great team player and is just an all-around outstanding person! It was always a pleasure working with him! He would be an excellent addition to any team!",
+    },
+    {
       id: 1,
       link: 'https://www.linkedin.com/in/andrew-krauss-0063ab109/',
       name: 'Andrew Krauss',
@@ -37,20 +44,6 @@ const Testimonials = () => {
       role: 'Team member',
       test: "Corey is a reliable teammate and a hardworking programmer that I had the pleasure of collaborating and working with. During our time for a group project, he continued to impress me with his insight into some problems we had run into and communicated it with precision. His dependability and strong work ethic is what makes him a great developer and a teammate.",
     },
-    // {
-    //   id: 4,
-    //   link: 'https://www.linkedin.com/in/isaicespedes/',
-    //   name: 'Isai Céspedes',
-    //   role: 'Full-Stack Web Developer. JavaScript | Rails | React | Redux.',
-    //   test: "I mentored Meri some months ago, and I can say that she is one of those people that you love to work with. She was always interested in what I was trying to teach her, paying attention and always asking questions if something was not clear. When it comes to professional skills, she is really committed to work, always doing her best and going beyond the requirements of the project she's building.",
-    // },
-    // {
-    //   id: 5,
-    //   link: 'https://www.linkedin.com/in/hamzaalitarar/',
-    //   name: 'Hamza Tarar',
-    //   role: 'Software Developer',
-    //   test: "Throughout all our collaborations, Meri has always conducted herself politely and kindly. She comes across as someone that's always willing to help and puts the team ahead of herself. But beneath this, I see a strength and determination to distinguish herself. She's not only someone I highly recommend but is also someone I greatly respect.",
-    // },
   ];
   return (
     <section id="testmonials">
