@@ -2,9 +2,10 @@
 > This is personal portfolio website.
 
 ## Built With
-
 - React
+- Javascript
 - CSS
-- VS code
+- Gh-Pages
+- Lensa AI
 
 
