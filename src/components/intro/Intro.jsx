@@ -5,7 +5,7 @@ import { RiUserStarFill } from 'react-icons/ri';
 import ME from '../../assets/me3.png';
 import './intro.css';
 
-const Intro = () => {
+export default function Intro() {
   return (
     <section id="about">
       <h5>A little bit</h5>
@@ -35,5 +35,3 @@ const Intro = () => {
     </section>
   )
 }
-
-export default Intro

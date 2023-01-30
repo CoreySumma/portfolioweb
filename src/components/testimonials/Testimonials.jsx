@@ -14,7 +14,7 @@ import './testimonials.css';
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-const Testimonials = () => {
+export default function Testimonials() {
   const testimonials = [
     {
       id: 4,
@@ -72,10 +72,9 @@ const Testimonials = () => {
           <h5 className='client__name'>{test.name}</h5>
           <small className="client__review">{test.test}</small>
         </SwiperSlide>
-        ))}
+        ))};
       </Swiper>
     </section>
-  )
+  );
 }
 
-export default Testimonials

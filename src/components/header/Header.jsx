@@ -4,7 +4,7 @@ import HeaderSocials from './HeaderSocials';
 import './header.css';
 import { BsChevronRight } from 'react-icons/bs';
 
-const Header = () => {
+export default function Header() {
   return (
     <header id="home">
       <div className="container header__container">
@@ -24,5 +24,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;

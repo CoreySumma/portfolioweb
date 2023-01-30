@@ -1,10 +1,9 @@
 import "./contact.css";
 import Footer from "../footer/Footer";
 
-const Contact = () => {
+export default function Contact() {
   return (
       <Footer />
   );
 };
 
-export default Contact;

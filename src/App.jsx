@@ -7,8 +7,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Testimonials from './components/testimonials/Testimonials';
 import Topbar from './components/topbar/Topbar';
 
-
-const App = () => {
+export default function App() {
   return (
     <>
       <Topbar />
@@ -19,7 +18,5 @@ const App = () => {
       <Testimonials />
       <Contact />
     </>
-  )
+  );
 }
-
-export default App

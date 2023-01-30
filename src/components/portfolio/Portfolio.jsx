@@ -3,12 +3,10 @@ import IMG1 from '../../assets/spaceman.png';
 import IMG2 from '../../assets/codemonk.png';
 import IMG3 from '../../assets/mistate.png';
 import IMG4 from '../../assets/spotlabs2.png';
-// import IMG5 from '../../assets/news.png';
-// import IMG6 from '../../assets/math.png';
 
 import './portfolio.css';
 
-const Portfolio = () => {
+export default function Portfolio() {
   const soloProjects = [
     {
       id: 1,
@@ -49,26 +47,6 @@ const Portfolio = () => {
       link: 'https://mistate.herokuapp.com/',
       github: 'https://github.com/CoreySumma/mern-mistate',
     },
-    // {
-    //   id: 5,
-    //   title: 'World News',
-    //   img: IMG5,
-    //   description:
-    //     'Fully responsive interactive website built based on Adobe XD design',
-    //   technologies: 'JavaScript | CSS',
-    //   link: 'https://meri-mg.github.io/Unilab-world-news/',
-    //   github: 'https://github.com/Meri-MG/Unilab-world-news',
-    // },
-    // {
-    //   id: 6,
-    //   title: 'Math Resource',
-    //   img: IMG6,
-    //   description:
-    //     'Real-world group project which is still in progress and will provide educational platform for future young developers',
-    //   technologies: 'JavaScript | Scss | Python',
-    //   link: 'https://lukinoo.github.io/math-resource/',
-    //   github: 'https://github.com/lukinoo/math-resource',
-    // },
   ];
 
   return (
@@ -110,5 +88,3 @@ const Portfolio = () => {
     </section>
   );
 };
-
-export default Portfolio;

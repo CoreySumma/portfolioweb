@@ -2,7 +2,7 @@ import React from 'react';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
 import './experience.css';
 
-const Experience = () => {
+export default function Experience() {
   return (
     <section id="experience">
       <h5>My Experience</h5>
@@ -68,7 +68,5 @@ const Experience = () => {
         </div>
       </div>
     </section>
-  )
+  );
 }
-
-export default Experience

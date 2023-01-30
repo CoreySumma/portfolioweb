@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import { AiFillInstagram, AiOutlineMail } from 'react-icons/ai'
 import './footer.css';
 
-const Footer = () => {
+export default function Footer() {
   return (
     <footer>
       <section id="contact">
@@ -19,5 +19,3 @@ const Footer = () => {
     </footer>
   )
 }
-
-export default Footer
