@@ -13,6 +13,6 @@ const CTA = () => {
       </a>
     </div>
   );
-};
+}
 
 export default CTA;

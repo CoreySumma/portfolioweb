@@ -5,5 +5,5 @@ export default function Contact() {
   return (
       <Footer />
   );
-};
+}
 
