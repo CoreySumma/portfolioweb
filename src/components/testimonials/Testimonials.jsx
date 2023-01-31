@@ -72,9 +72,9 @@ export default function Testimonials() {
           <h5 className='client__name'>{test.name}</h5>
           <small className="client__review">{test.test}</small>
         </SwiperSlide>
-        ))};
+        ))}
       </Swiper>
     </section>
-  );
+  )
 }
 

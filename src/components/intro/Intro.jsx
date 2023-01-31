@@ -1,5 +1,4 @@
 import React from 'react';
-// import { FaAward } from 'react-icons/fa';
 import { VscFolderLibrary } from 'react-icons/vsc';
 import { RiUserStarFill } from 'react-icons/ri';
 import ME from '../../assets/me3.png';
