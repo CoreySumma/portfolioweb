@@ -19,8 +19,8 @@ export default function Intro() {
           <div className="about__cards">
             <article className="about__card">
               <RiUserStarFill className="about__icon" />
-              <h5>Experience</h5>
-              <small>1 year</small>
+              <h5>Developer Experience</h5>
+              <small>1 Year</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -28,7 +28,7 @@ export default function Intro() {
               <small>10+ Completed Projects</small>
             </article>
           </div>
-          <p>I am a motivated and enthusiastic learner with a passion for full stack developmentment. I have found the process of learning and creating full stack applications to be enjoyable and rewarding, and I am constantly seeking new opportunities to improve my skills and knowledge. I value collaboration and have found that learning from others has been an invaluable part of my growth as a developer. In the future, I hope to continue to learn and gain experience through new opportunities and challenges.</p>
+          <p>I am a motivated and enthusiastic learner with a passion for full stack development. I have found the process of learning and creating full stack applications to be enjoyable and rewarding, and I am constantly seeking new opportunities to improve my skills and knowledge. I value collaboration and have found that learning from others has been an invaluable part of my growth as a developer. In the future, I hope to continue to learn and gain experience through new opportunities and challenges.</p>
         </div>
       </div>
     </section>
