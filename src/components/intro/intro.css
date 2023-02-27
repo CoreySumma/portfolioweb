@@ -16,15 +16,9 @@
 .about__me-image {
     border-radius: 50%;
     overflow: hidden;
-    /* transform: rotate(10deg); */
-    /* transition: var(--transition); */
     width: 20rem;
     height: 20rem;
 }
-
-/* .about__me-image:hover {
-    transform: rotate(0);
-} */
 
 .about__cards {
     display: grid;
@@ -76,8 +70,6 @@
     .about__me-image {
         border-radius: 50%;
         overflow: hidden;
-        /* transform: rotate(10deg); */
-        /* transition: var(--transition); */
         width: 10rem;
         height: 10rem;
     }

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dosis:wght@300&family=Gemunu+Libre:wght@200&family=Monda&family=Open+Sans:wght@300&family=Poppins:wght@100&family=Roboto+Slab:wght@100&display=swap');
 
 * {
   margin: 0;
@@ -53,6 +54,7 @@ h4,
 h5,
 h6 {
   font-weight: 500;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -71,11 +73,13 @@ section > h2,
 section > h5 {
   color: var(--color-light);
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 section > h2 {
   color: var(--color-white);
   margin-bottom: 3rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .text-light {
