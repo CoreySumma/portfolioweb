@@ -11,6 +11,50 @@ import "./portfolio.css";
 export default function Portfolio() {
   const soloProjects = [
     {
+      id: 6,
+      title: "AI SMS Generator",
+      img: IMG6,
+      description:
+        "A React application that utilizes Open AI's API, and Trilio's API to generate a random text to someone who is calling you so you can have some fun while filtering calls.",
+      technologies:
+        "HTML | CSS | React | Express | Twilio API | Open AI API",
+        link: "https://videogameshelf.herokuapp.com/",
+        github: "https://github.com/CoreySumma/react-text-generator",
+      },
+      {
+        id: 4,
+        title: "MiState",
+        img: IMG3,
+        description:
+          "A MERN stack mindfulness app designed to track a users emotional state with daily entries that are dynamically organized. Login with email: guest@email.com pw: visitor123! to take a tour of the website.",
+        technologies:
+          "HTML | CSS | JavaScript | React | Node | Express | MongoDB | Bootstrap",
+        link: "https://mistate.herokuapp.com/",
+        github: "https://github.com/CoreySumma/mern-mistate",
+      },
+      {
+        id: 5,
+        title: "Game_Shelf",
+        img: IMG5,
+        description:
+          "An app designed to help gamers keep track of their progress for each videogame they own. Login with un: guest pw: visitor123! to take a tour of the website.",
+        technologies:
+          "HTML | CSS | Python | Django | AWS | PostgresQL | Materialize",
+        link: "https://videogameshelf.herokuapp.com/",
+        github: "https://github.com/CoreySumma/videogamecollector",
+      },
+      {
+        id: 3,
+        title: "[codemonk]",
+        img: IMG2,
+        description:
+          "A full CRUD, Django driven collaboration for students to learn from one another by posting coding challenges, commenting on posts, and liking comments. Login with un: guest pw: visitor123! to take a tour of the website.",
+        technologies:
+          " HTML | CSS | Python | Django | AWS | PostgresQL | Materialize",
+        link: "http://codemonk-wars.herokuapp.com/",
+        github: "https://github.com/ultimoakim/-codemonk-",
+      },
+    {
       id: 1,
       title: "SpaceMan",
       img: IMG1,
@@ -30,50 +74,6 @@ export default function Portfolio() {
         "HTML | CSS |Javascript | Node | Express | MongoDB | Mongoose | Google Oauth",
       link: "https://mongoose-playlist-926.herokuapp.com/",
       github: "https://github.com/CoreySumma/mongoose-playlist",
-    },
-    {
-      id: 3,
-      title: "[codemonk]",
-      img: IMG2,
-      description:
-        "A full CRUD, Django driven collaboration for students to challenge and learn from one another by posting coding challenges, commenting on posts, and liking comments.",
-      technologies:
-        " HTML | CSS | Python | Django | AWS | PostgresQL | Materialize",
-      link: "http://codemonk-wars.herokuapp.com/",
-      github: "https://github.com/ultimoakim/-codemonk-",
-    },
-    {
-      id: 4,
-      title: "MiState",
-      img: IMG3,
-      description:
-        "A MERN stack mindfulness app designed to track a users emotional state with daily entries that are dynamically organized. Login with un: guest pw: visitor123! to take a tour of the website.",
-      technologies:
-        "HTML | CSS | JavaScript | React | Node | Express | MongoDB | Bootstrap",
-      link: "https://mistate.herokuapp.com/",
-      github: "https://github.com/CoreySumma/mern-mistate",
-    },
-    {
-      id: 5,
-      title: "Game_Shelf",
-      img: IMG5,
-      description:
-        "An app designed to help gamers keep track of their progress for each videogame they own. Login with un: guest pw: visitor123! to take a tour of the website.",
-      technologies:
-        "HTML | CSS | Python | Django | AWS | PostgresQL | Materialize",
-      link: "https://videogameshelf.herokuapp.com/",
-      github: "https://github.com/CoreySumma/videogamecollector",
-    },
-    {
-      id: 6,
-      title: "AI SMS Generator",
-      img: IMG6,
-      description:
-        "A React application that utilizes Open AI's API, and Trilio's API to generate a random text to someone who is calling you so you can have some fun while filtering calls.",
-      technologies:
-        "HTML | CSS | React | Express | Twilio API | Open AI API",
-      link: "https://videogameshelf.herokuapp.com/",
-      github: "https://github.com/CoreySumma/videogamecollector",
     },
   ];
 
