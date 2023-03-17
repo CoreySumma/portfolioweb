@@ -15,7 +15,7 @@ export default function Portfolio() {
       title: "AI SMS Generator",
       img: IMG6,
       description:
-        "A React application that utilizes Open AI's API, and Trilio's API to generate an AI written text to someone who is calling you so you can have some fun while filtering calls.",
+        "A React application that utilizes Open AI's API, and Twilio's API to generate an AI written text to someone who is calling you so you can have some fun while filtering calls.",
       technologies:
         "HTML | CSS | React | Express | Twilio API | Open AI API",
         link: "https://sms-ai-generator.herokuapp.com/",
