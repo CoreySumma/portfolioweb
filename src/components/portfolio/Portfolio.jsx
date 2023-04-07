@@ -5,11 +5,23 @@ import IMG3 from "../../assets/mistate.png";
 import IMG4 from "../../assets/spotlabs2.png";
 import IMG5 from "../../assets/game_shelf.png";
 import IMG6 from "../../assets/SMSss.png";
+import IMG7 from "../../assets/MeatyMail.png";
 
 import "./portfolio.css";
 
 export default function Portfolio() {
   const soloProjects = [
+    {
+      id: 7,
+      title: "Meaty Mail",
+      img: IMG7,
+      description:
+        "A React application that utilizes Open AI's API to generate a summary of your emails so you can get to the meat of the matter.",
+      technologies:
+        "HTML | Tailwind CSS | React | Google Oauth2 | Gmail API | Open AI API",
+        link: "https://gmail-ai.netlify.app/",
+        github: "https://github.com/CoreySumma/oauth2-gmail-test",
+      },
     {
       id: 6,
       title: "AI SMS Generator",
@@ -54,16 +66,16 @@ export default function Portfolio() {
         link: "http://codemonk-wars.herokuapp.com/",
         github: "https://github.com/ultimoakim/-codemonk-",
       },
-    {
-      id: 1,
-      title: "SpaceMan",
-      img: IMG1,
-      description:
-        "A word guessing game that generates a random word and allows the user 5 attempts at guessing correct letters within it.  Do you have what it takes to save the Spaceman?",
-      technologies: "Vanilla Javascript",
-      link: "https://coreysumma.github.io/Spaceman/",
-      github: "https://github.com/CoreySumma/Spaceman",
-    },
+    // {
+    //   id: 1,
+    //   title: "SpaceMan",
+    //   img: IMG1,
+    //   description:
+    //     "A word guessing game that generates a random word and allows the user 5 attempts at guessing correct letters within it.  Do you have what it takes to save the Spaceman?",
+    //   technologies: "Vanilla Javascript",
+    //   link: "https://coreysumma.github.io/Spaceman/",
+    //   github: "https://github.com/CoreySumma/Spaceman",
+    // },
     {
       id: 2,
       title: "SpotLabs",
