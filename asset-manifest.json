@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioweb/static/css/main.8f3e4a61.css",
-    "main.js": "/portfolioweb/static/js/main.0a7c9c4c.js",
+    "main.js": "/portfolioweb/static/js/main.b71b6b68.js",
     "static/media/me3.png": "/portfolioweb/static/media/me3.3a85512c4f0940d30cad.png",
     "static/media/spaceman.png": "/portfolioweb/static/media/spaceman.8e66e1c39d9f59c4576f.png",
     "static/media/game_shelf.png": "/portfolioweb/static/media/game_shelf.84c2d41c97d633caa817.png",
@@ -11,13 +11,13 @@
     "static/media/abstract.png": "/portfolioweb/static/media/abstract.f7aa17c0ca6606cd9431.png",
     "static/media/MeatyMail.png": "/portfolioweb/static/media/MeatyMail.139a12d6171cf4c889da.png",
     "static/media/SMSss.png": "/portfolioweb/static/media/SMSss.dfcbe3dd899d50476c58.png",
-    "static/media/coreysumma.pdf": "/portfolioweb/static/media/coreysumma.ee28cdf37cf7c2792ee8.pdf",
+    "static/media/CoreySumma.pdf": "/portfolioweb/static/media/CoreySumma.ee28cdf37cf7c2792ee8.pdf",
     "index.html": "/portfolioweb/index.html",
     "main.8f3e4a61.css.map": "/portfolioweb/static/css/main.8f3e4a61.css.map",
-    "main.0a7c9c4c.js.map": "/portfolioweb/static/js/main.0a7c9c4c.js.map"
+    "main.b71b6b68.js.map": "/portfolioweb/static/js/main.b71b6b68.js.map"
   },
   "entrypoints": [
     "static/css/main.8f3e4a61.css",
-    "static/js/main.0a7c9c4c.js"
+    "static/js/main.b71b6b68.js"
   ]
 }
