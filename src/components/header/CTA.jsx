@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../assets/coreysumma.pdf';
+import CV from '../../assets/CoreySumma.pdf';
 // import {BsChatSquareTextFill} from 'react-icons/bs'
 
 const CTA = () => {

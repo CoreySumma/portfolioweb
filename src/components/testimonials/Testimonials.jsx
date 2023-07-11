@@ -1,15 +1,15 @@
-import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
-import { Autoplay, Pagination, Navigation } from 'swiper';
+import React from "react";
+import { BsLinkedin } from "react-icons/bs";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
-import './testimonials.css';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "./testimonials.css";
 
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -17,31 +17,38 @@ import "swiper/css/navigation";
 export default function Testimonials() {
   const testimonials = [
     {
+      id: 5,
+      link: "https://www.linkedin.com/in/duane-teeters/",
+      name: "Duane Teeeters",
+      role: "Manager",
+      test: "Corey did a great job as a full-stack developer and was able to quickly contribute to our start-up.  He overhauled our hastily-thrown-together set of Python scripts and put them into more structured Django templates. He got things working in both mobile and desktop and built out a smooth check out process. He has a good sense for design and UI.He is always curious and looking to improve the overall product. Was consistent, on time and communicated every step of the way.",
+    },
+    {
       id: 4,
-      link: 'https://www.linkedin.com/in/skimalee/',
-      name: 'Stephanie Lee',
-      role: 'Sr Instructional Associate',
+      link: "https://www.linkedin.com/in/skimalee/",
+      name: "Stephanie Lee",
+      role: "Sr Instructional Associate",
       test: "As Corey's former Software Engineering Immersive instructor at General Assembly, I fully support and recommend Corey to be a part of any Software Engineering team as a full-stack developer. Corey was always collaborative, motivated and hardworking. He was always very pro-active in learning and highly engaged. He also demonstrated being a great team player and is just an all-around outstanding person! It was always a pleasure working with him! He would be an excellent addition to any team!",
     },
     {
       id: 1,
-      link: 'https://www.linkedin.com/in/andrew-krauss-0063ab109/',
-      name: 'Andrew Krauss',
-      role: 'Classmate',
+      link: "https://www.linkedin.com/in/andrew-krauss-0063ab109/",
+      name: "Andrew Krauss",
+      role: "Classmate",
       test: "Corey works extremely hard and is always willing to lend a helping hand or collaborate on a project. He's smart and has a strong work ethic that is infectious and promotes a high degree of productivity. I admire the passion he shows for his craft and his hunger to learn more and more about it. Working with him was a pleasure and I hope I get the opportunity to do so again in the near future.",
     },
     {
       id: 2,
-      link: 'https://www.linkedin.com/in/taylor-romoser/',
-      name: 'Taylor Romoser',
-      role: 'Classmate',
-      test: 'Corey has a strong foundation in both JavaScript and Python, and has a particularly impressive understanding of popular frameworks such as Express, React, and Django. Corey consistently produces high quality code and is always looking for ways to improve his skills and knowledge.',
+      link: "https://www.linkedin.com/in/taylor-romoser/",
+      name: "Taylor Romoser",
+      role: "Classmate",
+      test: "Corey has a strong foundation in both JavaScript and Python, and has a particularly impressive understanding of popular frameworks such as Express, React, and Django. Corey consistently produces high quality code and is always looking for ways to improve his skills and knowledge.",
     },
     {
       id: 3,
-      link: 'https://www.linkedin.com/in/kristina-lim-01/',
-      name: 'Kris Lim',
-      role: 'Team member',
+      link: "https://www.linkedin.com/in/kristina-lim-01/",
+      name: "Kris Lim",
+      role: "Team member",
       test: "Corey is a reliable teammate and a hardworking programmer that I had the pleasure of collaborating and working with. During our time for a group project, he continued to impress me with his insight into some problems we had run into and communicated it with precision. His dependability and strong work ethic is what makes him a great developer and a teammate.",
     },
   ];
@@ -49,7 +56,7 @@ export default function Testimonials() {
     <section id="testmonials">
       <h5>What others say about me</h5>
       <h2>Peer Feedback</h2>
-      <Swiper 
+      <Swiper
         className="container testimonials__container"
         modules={[Pagination, Autoplay, Navigation]}
         spaceBetween={40}
@@ -61,20 +68,19 @@ export default function Testimonials() {
         }}
         pagination={{ clickable: true }}
         navigation={true}
-        >
+      >
         {testimonials.map((test) => (
           <SwiperSlide className="testimonial" key={test.id}>
-          <div className="client__avatar">
-            <a href={test.link}>
-              <BsLinkedin />
-            </a>
-          </div>
-          <h5 className='client__name'>{test.name}</h5>
-          <small className="client__review">{test.test}</small>
-        </SwiperSlide>
+            <div className="client__avatar">
+              <a href={test.link}>
+                <BsLinkedin />
+              </a>
+            </div>
+            <h5 className="client__name">{test.name}</h5>
+            <small className="client__review">{test.test}</small>
+          </SwiperSlide>
         ))}
       </Swiper>
     </section>
   );
 }
-
