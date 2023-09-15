@@ -7,6 +7,7 @@ import IMG5 from "../../assets/game_shelf.png";
 import IMG6 from "../../assets/SMSss.png";
 import IMG7 from "../../assets/MeatyMail.png";
 import IMG8 from "../../assets/aicardshop.png";
+import IMG9 from "../../assets/astronomy.png";
 import "./portfolio.css";
 
 
@@ -21,6 +22,17 @@ export default function Portfolio() {
       technologies:
         "HTML | Boostrap CSS | AWS | Apache | Generative AI | Python | Django | Javascript",
         link: "https://aicardshop.com/",
+      },
+    {
+      id: 8,
+      title: "Daily Horoscope AI",
+      img: IMG9,
+      description:
+        "AI generated horoscopes based on your zodiac sign, date, time, temperature, location, and day of week.",
+      technologies:
+        "HTML | CSS | React | Redux | Generative AI | Javascript",
+        link: "https://6504ba5eef6fec1ea3b2c5b6--mydailyprediction.netlify.app/",
+        github: "https://github.com/CoreySumma/astrology",
       },
     {
       id: 7,
