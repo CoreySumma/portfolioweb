@@ -8,6 +8,7 @@ import IMG6 from "../../assets/SMSss.png";
 import IMG7 from "../../assets/MeatyMail.png";
 import IMG8 from "../../assets/aicardshop.png";
 import IMG9 from "../../assets/astronomy.png";
+import IMG10 from "../../assets/chatbot.png";
 import "./portfolio.css";
 
 
@@ -22,6 +23,16 @@ export default function Portfolio() {
       technologies:
         "HTML | Boostrap CSS | AWS | Apache | Generative AI | Python | Django | Javascript",
         link: "https://aicardshop.com/",
+      },
+    {
+      id: 8,
+      title: "Chat Bot Playground",
+      img: IMG10,
+      description:
+        "Professional experience building a customizable chat bot as a tool for learning about AI for a developer conference.",
+      technologies:
+        "HTML | Boostrap CSS | AWS Lambda |  Generative AI | Python | Javascript",
+        link: "https://2zecrgzv5gbzmpnkd2lgbts37a0duwzx.lambda-url.us-east-1.on.aws/",
       },
     {
       id: 8,
