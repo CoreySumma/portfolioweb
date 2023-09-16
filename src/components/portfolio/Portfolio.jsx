@@ -11,7 +11,6 @@ import IMG9 from "../../assets/astronomy.png";
 import IMG10 from "../../assets/chatbot.png";
 import "./portfolio.css";
 
-
 export default function Portfolio() {
   const soloProjects = [
     {
@@ -22,8 +21,8 @@ export default function Portfolio() {
         "Professional experience building a Generative AI web application that personalizes greeting cards for customers.",
       technologies:
         "HTML | Boostrap CSS | AWS | Apache | Generative AI | Python | Django | Javascript",
-        link: "https://aicardshop.com/",
-      },
+      link: "https://aicardshop.com/",
+    },
     {
       id: 8,
       title: "Chat Bot Playground",
@@ -32,19 +31,18 @@ export default function Portfolio() {
         "Professional experience building a customizable chat bot as a tool for learning about AI for a developer conference.",
       technologies:
         "HTML | Boostrap CSS | AWS Lambda |  Generative AI | Python | Javascript",
-        link: "https://2zecrgzv5gbzmpnkd2lgbts37a0duwzx.lambda-url.us-east-1.on.aws/",
-      },
+      link: "https://2zecrgzv5gbzmpnkd2lgbts37a0duwzx.lambda-url.us-east-1.on.aws/",
+    },
     {
       id: 8,
       title: "Daily Horoscope AI",
       img: IMG9,
       description:
         "AI generated horoscopes based on your zodiac sign, date, time, temperature, location, and day of week.",
-      technologies:
-        "HTML | CSS | React | Redux | Generative AI | Javascript",
-        link: "https://65050c56851b274fdc2194aa--mydailyprediction.netlify.app/",
-        github: "https://github.com/CoreySumma/astrology",
-      },
+      technologies: "HTML | CSS | React | Redux | Generative AI | Javascript",
+      link: "https://mydailyprediction.netlify.app/",
+      github: "https://github.com/CoreySumma/astrology",
+    },
     {
       id: 7,
       title: "Meaty Mail",
@@ -53,53 +51,52 @@ export default function Portfolio() {
         "A React application that utilizes Open AI's API to generate a summary of your emails so you can get to the meat of the matter.",
       technologies:
         "HTML | Tailwind CSS | React | Google Oauth2 | Gmail API | Open AI API",
-        link: "https://gmail-ai.netlify.app/",
-        github: "https://github.com/CoreySumma/oauth2-gmail-test",
-      },
+      link: "https://gmail-ai.netlify.app/",
+      github: "https://github.com/CoreySumma/oauth2-gmail-test",
+    },
     {
       id: 6,
       title: "AI SMS Generator",
       img: IMG6,
       description:
         "A React application that utilizes Open AI's API, and Twilio's API to generate an AI written text to someone who is calling you so you can have some fun while filtering calls.",
+      technologies: "HTML | CSS | React | Express | Twilio API | Open AI API",
+      link: "https://sms-ai-generator.herokuapp.com/",
+      github: "https://github.com/CoreySumma/sms-generator-deploy",
+    },
+    {
+      id: 4,
+      title: "MiState",
+      img: IMG3,
+      description:
+        "A MERN stack mindfulness digital journal web application designed to track a users emotional state. Login with email: guest@email.com pw: visitor123! to take a tour of the website.",
       technologies:
-        "HTML | CSS | React | Express | Twilio API | Open AI API",
-        link: "https://sms-ai-generator.herokuapp.com/",
-        github: "https://github.com/CoreySumma/sms-generator-deploy",
-      },
-      {
-        id: 4,
-        title: "MiState",
-        img: IMG3,
-        description:
-          "A MERN stack mindfulness digital journal web application designed to track a users emotional state. Login with email: guest@email.com pw: visitor123! to take a tour of the website.",
-        technologies:
-          "HTML | CSS | JavaScript | React | Node.js | Express | MongoDB",
-        link: "https://mistate.herokuapp.com/",
-        github: "https://github.com/CoreySumma/mern-mistate",
-      },
-      {
-        id: 5,
-        title: "Game_Shelf",
-        img: IMG5,
-        description:
-          "An app designed to help gamers keep track of their progress for each videogame they own. Login with un: guest pw: visitor123! to take a tour of the website.",
-        technologies:
-          "HTML | CSS | Python | Django | AWS | PostgresQL | Materialize",
-        link: "https://videogameshelf.herokuapp.com/",
-        github: "https://github.com/CoreySumma/videogamecollector",
-      },
-      {
-        id: 3,
-        title: "[codemonk]",
-        img: IMG2,
-        description:
-          "A full CRUD, Django driven collaboration for students to learn from one another by posting coding challenges. Login with un: guest pw: visitor123! to take a tour of the website.",
-        technologies:
-          " HTML | CSS | Python | Django | AWS | PostgresQL | Materialize",
-        link: "http://codemonk-wars.herokuapp.com/",
-        github: "https://github.com/ultimoakim/-codemonk-",
-      },
+        "HTML | CSS | JavaScript | React | Node.js | Express | MongoDB",
+      link: "https://mistate.herokuapp.com/",
+      github: "https://github.com/CoreySumma/mern-mistate",
+    },
+    {
+      id: 5,
+      title: "Game_Shelf",
+      img: IMG5,
+      description:
+        "An app designed to help gamers keep track of their progress for each videogame they own. Login with un: guest pw: visitor123! to take a tour of the website.",
+      technologies:
+        "HTML | CSS | Python | Django | AWS | PostgresQL | Materialize",
+      link: "https://videogameshelf.herokuapp.com/",
+      github: "https://github.com/CoreySumma/videogamecollector",
+    },
+    {
+      id: 3,
+      title: "[codemonk]",
+      img: IMG2,
+      description:
+        "A full CRUD, Django driven collaboration for students to learn from one another by posting coding challenges. Login with un: guest pw: visitor123! to take a tour of the website.",
+      technologies:
+        " HTML | CSS | Python | Django | AWS | PostgresQL | Materialize",
+      link: "http://codemonk-wars.herokuapp.com/",
+      github: "https://github.com/ultimoakim/-codemonk-",
+    },
     {
       id: 1,
       title: "SpaceMan",
