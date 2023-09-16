@@ -42,7 +42,7 @@ export default function Portfolio() {
         "AI generated horoscopes based on your zodiac sign, date, time, temperature, location, and day of week.",
       technologies:
         "HTML | CSS | React | Redux | Generative AI | Javascript",
-        link: "https://6504ba5eef6fec1ea3b2c5b6--mydailyprediction.netlify.app/",
+        link: "https://65050c56851b274fdc2194aa--mydailyprediction.netlify.app/",
         github: "https://github.com/CoreySumma/astrology",
       },
     {
