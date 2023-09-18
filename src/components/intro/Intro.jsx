@@ -28,7 +28,11 @@ export default function Intro() {
               <small>10+ Completed</small>
             </article>
           </div>
-          <p>I am a motivated and enthusiastic learner with a passion for full stack development. I have found the process of learning and creating applications enjoyable and rewarding, and I am constantly seeking new opportunities to improve my skills and knowledge. I value collaboration and have found that learning from others has been an invaluable part of my growth as a developer. In the future, I hope to continue to learn and gain experience through new opportunities and challenges.</p>
+          <p>I am a motivated, enthusiastic, and passionate learner.  I enjoy solving problems, working with others, 
+            and constantly exploring new concepts, ideas, and technologies.    
+            I truly value collaboration and have found that learning from others has been an invaluable part of my growth as a developer. 
+            In the future, I hope to continue to learn and gain experience through new opportunities and challenges.
+            Feel free to explore some of my projects, and don't hesitate to reach out to me with any questions or opportunities you may have.</p>
         </div>
       </div>
     </section>
