@@ -1,6 +1,6 @@
-import React from 'react';
-import { BsFillPatchCheckFill } from 'react-icons/bs';
-import './experience.css';
+import React from "react";
+import { BsFillPatchCheckFill } from "react-icons/bs";
+import "./experience.css";
 
 export default function Experience() {
   return (
@@ -11,7 +11,7 @@ export default function Experience() {
         <div className="experience__frontend">
           <h3>Front-End Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>HTML/CSS</h4>
             </article>
@@ -40,7 +40,7 @@ export default function Experience() {
         <div className="experience__backend">
           <h3>Back-End Development</h3>
           <div className="experience__content">
-          <article className="experience__details">
+            <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Mongoose</h4>
             </article>
@@ -58,7 +58,7 @@ export default function Experience() {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Authentification</h4>
+              <h4>Node.js</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
