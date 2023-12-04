@@ -13,11 +13,15 @@ export default function Experience() {
           <div className="experience__content">
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>HTML/CSS</h4>
+              <h4>HTML</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Python</h4>
+              <h4>CSS</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Bootstrap CSS</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -25,15 +29,23 @@ export default function Experience() {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>JQuery</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>React</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Django</h4>
+              <h4>React Redux</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Bootstrap</h4>
+              <h4>Framer Motion</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Swiper</h4>
             </article>
           </div>
         </div>
@@ -42,11 +54,19 @@ export default function Experience() {
           <div className="experience__content">
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Mongoose</h4>
+              <h4>Python</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>MongoDB</h4>
+              <h4>Django</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Dynamo DB</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Mongo DB</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -66,11 +86,19 @@ export default function Experience() {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Redux</h4>
+              <h4>RESTful API's</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>API's</h4>
+              <h4>AWS S3 Bucket</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>AWS Gateway</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>AWS Lambda</h4>
             </article>
           </div>
         </div>
