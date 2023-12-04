@@ -9,29 +9,21 @@ import IMG7 from "../../assets/MeatyMail.png";
 import IMG8 from "../../assets/aicardshop.png";
 import IMG9 from "../../assets/astronomy.png";
 import IMG10 from "../../assets/chatbot.png";
+import IMG11 from "../../assets/corbot.png";
 import "./portfolio.css";
 
 export default function Portfolio() {
   const soloProjects = [
     {
-      id: 8,
-      title: "AI Card Shop",
-      img: IMG8,
+      id: 11,
+      title: "CorBot 2.0",
+      img: IMG11,
       description:
-        "Professional experience building a Generative AI web application that personalizes greeting cards for customers.",
+        "Prototyped a chatbot for job seekers that embodies their personality and work experience with voice to text and text to voice capabilities.",
       technologies:
-        "HTML | Boostrap CSS | AWS | Apache | Generative AI | Python | Django | Javascript",
-      link: "https://aicardshop.com/",
-    },
-    {
-      id: 8,
-      title: "Chat Bot Playground",
-      img: IMG10,
-      description:
-        "Professional experience building a customizable chat bot as a tool for learning about AI for a developer conference.",
-      technologies:
-        "HTML | Boostrap CSS | AWS Lambda |  Generative AI | Python | Javascript",
-      link: "https://2zecrgzv5gbzmpnkd2lgbts37a0duwzx.lambda-url.us-east-1.on.aws/",
+        "HTML | CSS | Framer Motion | Javascript | Generative AI | React | Redux",
+      link: "https://corbottwo.netlify.app/",
+      github: "https://github.com/CoreySumma/corBot/tree/prodrework",
     },
     {
       id: 8,
@@ -42,6 +34,26 @@ export default function Portfolio() {
       technologies: "HTML | CSS | React | Redux | Generative AI | Javascript",
       link: "https://mydailyprediction.netlify.app/",
       github: "https://github.com/CoreySumma/astrology",
+    },
+    {
+      id: 10,
+      title: "AI Card Shop",
+      img: IMG8,
+      description:
+        "Professional experience building a Generative AI web application that personalizes greeting cards for customers.",
+      technologies:
+        "HTML | Boostrap CSS | AWS | Apache | Generative AI | Python | Django | Javascript",
+      link: "https://aicardshop.com/",
+    },
+    {
+      id: 9,
+      title: "Chat Bot Playground",
+      img: IMG10,
+      description:
+        "Professional experience building a customizable chat bot as a tool for learning about AI for a developer conference.",
+      technologies:
+        "HTML | Boostrap CSS | AWS Lambda |  Generative AI | Python | Javascript",
+      link: "https://2zecrgzv5gbzmpnkd2lgbts37a0duwzx.lambda-url.us-east-1.on.aws/",
     },
     {
       id: 7,
