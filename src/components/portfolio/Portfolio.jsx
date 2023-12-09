@@ -16,14 +16,14 @@ export default function Portfolio() {
   const soloProjects = [
     {
       id: 11,
-      title: "CorBot 2.0",
+      title: "CorBot 3.0",
       img: IMG11,
       description:
-        "Prototyped a chatbot for job seekers that embodies their personality and work experience with voice to text and text to voice capabilities.",
+        "Prototyped a chatbot that can see and hear the user. Made for job seekers to embody their personality and work experience when interacting with recruiters.",
       technologies:
-        "HTML | CSS | Framer Motion | Javascript | Generative AI | React | Redux",
-      link: "https://corbottwo.netlify.app/",
-      github: "https://github.com/CoreySumma/corBot/tree/prodrework",
+        "HTML | CSS | Framer Motion | Javascript | OpenAi API | Face API | React | Redux",
+      link: "https://corbotthree.netlify.app/",
+      github: "https://github.com/CoreySumma/corBot/tree/videorecorder",
     },
     {
       id: 8,
