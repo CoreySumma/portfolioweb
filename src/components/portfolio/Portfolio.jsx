@@ -42,7 +42,7 @@ export default function Portfolio() {
       description:
         "Professional experience building a Generative AI web application that personalizes greeting cards for customers.",
       technologies:
-        "HTML | Boostrap CSS | AWS | Apache | Generative AI | Python | Django | Javascript",
+        "HTML | CSS | AWS | Apache | Linux | Stable Diffusion | GPT Chat Completion | Python | Django | Javascript | JQuery | SQL",
       link: "https://aicardshop.com/",
     },
     {
