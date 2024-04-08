@@ -15,6 +15,26 @@ import "./portfolio.css";
 export default function Portfolio() {
   const soloProjects = [
     {
+      id: 10,
+      title: "AI Card Shop",
+      img: IMG8,
+      description:
+        "Professional experience building a Generative AI web application that personalizes greeting cards for customers.",
+      technologies:
+        "HTML | CSS | AWS | Apache | Linux | Stable Diffusion | GPT Chat Completion | Python | Django | Javascript | JQuery | SQL",
+      link: "https://aicardshop.com/",
+    },
+    {
+      id: 9,
+      title: "Chat Bot Playground",
+      img: IMG10,
+      description:
+        "Professional experience building a customizable chat bot as a tool for learning about AI for a developer conference.",
+      technologies:
+        "HTML | Boostrap CSS | AWS Lambda |  Generative AI | Python | Javascript",
+      link: "https://2zecrgzv5gbzmpnkd2lgbts37a0duwzx.lambda-url.us-east-1.on.aws/",
+    },
+    {
       id: 11,
       title: "CorBot 3.0",
       img: IMG11,
@@ -36,24 +56,15 @@ export default function Portfolio() {
       github: "https://github.com/CoreySumma/astrology",
     },
     {
-      id: 10,
-      title: "AI Card Shop",
-      img: IMG8,
+      id: 4,
+      title: "MiState",
+      img: IMG3,
       description:
-        "Professional experience building a Generative AI web application that personalizes greeting cards for customers.",
+        "A MERN stack mindfulness digital journal web application designed to track a users emotional state. Login with email: guest@email.com pw: visitor123! to take a tour of the website.",
       technologies:
-        "HTML | CSS | AWS | Apache | Linux | Stable Diffusion | GPT Chat Completion | Python | Django | Javascript | JQuery | SQL",
-      link: "https://aicardshop.com/",
-    },
-    {
-      id: 9,
-      title: "Chat Bot Playground",
-      img: IMG10,
-      description:
-        "Professional experience building a customizable chat bot as a tool for learning about AI for a developer conference.",
-      technologies:
-        "HTML | Boostrap CSS | AWS Lambda |  Generative AI | Python | Javascript",
-      link: "https://2zecrgzv5gbzmpnkd2lgbts37a0duwzx.lambda-url.us-east-1.on.aws/",
+        "HTML | CSS | JavaScript | React | Node.js | Express | MongoDB",
+      link: "https://mistate.herokuapp.com/",
+      github: "https://github.com/CoreySumma/mern-mistate",
     },
     {
       id: 7,
@@ -75,17 +86,6 @@ export default function Portfolio() {
       technologies: "HTML | CSS | React | Express | Twilio API | Open AI API",
       link: "https://sms-ai-generator.herokuapp.com/",
       github: "https://github.com/CoreySumma/sms-generator-deploy",
-    },
-    {
-      id: 4,
-      title: "MiState",
-      img: IMG3,
-      description:
-        "A MERN stack mindfulness digital journal web application designed to track a users emotional state. Login with email: guest@email.com pw: visitor123! to take a tour of the website.",
-      technologies:
-        "HTML | CSS | JavaScript | React | Node.js | Express | MongoDB",
-      link: "https://mistate.herokuapp.com/",
-      github: "https://github.com/CoreySumma/mern-mistate",
     },
     {
       id: 5,
