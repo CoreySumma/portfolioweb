@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolioweb/static/css/main.8f3e4a61.css",
-    "main.js": "/portfolioweb/static/js/main.039a2311.js",
+    "main.js": "/portfolioweb/static/js/main.fd43a3ee.js",
     "static/media/me3.png": "/portfolioweb/static/media/me3.3a85512c4f0940d30cad.png",
     "static/media/spaceman.png": "/portfolioweb/static/media/spaceman.8e66e1c39d9f59c4576f.png",
+    "static/media/mistate.png": "/portfolioweb/static/media/mistate.77f64e265030d670f12c.png",
     "static/media/aicardshop.png": "/portfolioweb/static/media/aicardshop.0ac1a769d5c4f8a59994.png",
     "static/media/game_shelf.png": "/portfolioweb/static/media/game_shelf.84c2d41c97d633caa817.png",
-    "static/media/mistate.png": "/portfolioweb/static/media/mistate.2c6faef94e6bde7e0cf5.png",
     "static/media/codemonk.png": "/portfolioweb/static/media/codemonk.a9ddc72780abdcfed536.png",
     "static/media/spotlabs2.png": "/portfolioweb/static/media/spotlabs2.8e6caac1d65699cc1649.png",
     "static/media/abstract.png": "/portfolioweb/static/media/abstract.f7aa17c0ca6606cd9431.png",
@@ -15,13 +15,13 @@
     "static/media/astronomy.png": "/portfolioweb/static/media/astronomy.d5d524c337eb20a33f7c.png",
     "static/media/chatbot.png": "/portfolioweb/static/media/chatbot.e3b556898b4028ad58e6.png",
     "static/media/corbot.png": "/portfolioweb/static/media/corbot.1045fb808ef3dae42661.png",
-    "static/media/CoreySumma.pdf": "/portfolioweb/static/media/CoreySumma.852f65a4f85949295564.pdf",
+    "static/media/CoreySumma.pdf": "/portfolioweb/static/media/CoreySumma.00b1f9e419ba881db023.pdf",
     "index.html": "/portfolioweb/index.html",
     "main.8f3e4a61.css.map": "/portfolioweb/static/css/main.8f3e4a61.css.map",
-    "main.039a2311.js.map": "/portfolioweb/static/js/main.039a2311.js.map"
+    "main.fd43a3ee.js.map": "/portfolioweb/static/js/main.fd43a3ee.js.map"
   },
   "entrypoints": [
     "static/css/main.8f3e4a61.css",
-    "static/js/main.039a2311.js"
+    "static/js/main.fd43a3ee.js"
   ]
 }
