@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioweb/static/css/main.8f3e4a61.css",
-    "main.js": "/portfolioweb/static/js/main.fd43a3ee.js",
+    "main.js": "/portfolioweb/static/js/main.30e91884.js",
     "static/media/me3.png": "/portfolioweb/static/media/me3.3a85512c4f0940d30cad.png",
     "static/media/spaceman.png": "/portfolioweb/static/media/spaceman.8e66e1c39d9f59c4576f.png",
     "static/media/mistate.png": "/portfolioweb/static/media/mistate.77f64e265030d670f12c.png",
@@ -10,18 +10,19 @@
     "static/media/codemonk.png": "/portfolioweb/static/media/codemonk.a9ddc72780abdcfed536.png",
     "static/media/spotlabs2.png": "/portfolioweb/static/media/spotlabs2.8e6caac1d65699cc1649.png",
     "static/media/abstract.png": "/portfolioweb/static/media/abstract.f7aa17c0ca6606cd9431.png",
+    "static/media/verosint.png": "/portfolioweb/static/media/verosint.429788058a7690fb92ff.png",
     "static/media/MeatyMail.png": "/portfolioweb/static/media/MeatyMail.139a12d6171cf4c889da.png",
     "static/media/SMSss.png": "/portfolioweb/static/media/SMSss.dfcbe3dd899d50476c58.png",
     "static/media/astronomy.png": "/portfolioweb/static/media/astronomy.d5d524c337eb20a33f7c.png",
     "static/media/chatbot.png": "/portfolioweb/static/media/chatbot.e3b556898b4028ad58e6.png",
     "static/media/corbot.png": "/portfolioweb/static/media/corbot.1045fb808ef3dae42661.png",
-    "static/media/CoreySumma.pdf": "/portfolioweb/static/media/CoreySumma.00b1f9e419ba881db023.pdf",
+    "static/media/CoreySumma.pdf": "/portfolioweb/static/media/CoreySumma.f616e2c71b8dc6f6a5e4.pdf",
     "index.html": "/portfolioweb/index.html",
     "main.8f3e4a61.css.map": "/portfolioweb/static/css/main.8f3e4a61.css.map",
-    "main.fd43a3ee.js.map": "/portfolioweb/static/js/main.fd43a3ee.js.map"
+    "main.30e91884.js.map": "/portfolioweb/static/js/main.30e91884.js.map"
   },
   "entrypoints": [
     "static/css/main.8f3e4a61.css",
-    "static/js/main.fd43a3ee.js"
+    "static/js/main.30e91884.js"
   ]
 }
