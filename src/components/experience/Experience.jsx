@@ -5,7 +5,7 @@ import "./experience.css";
 export default function Experience() {
   return (
     <section id="experience">
-      <h5>My Experience</h5>
+      <h5>Stuff I&apos;ve used:</h5>
       <h2>Technologies</h2>
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -21,7 +21,11 @@ export default function Experience() {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Bootstrap CSS</h4>
+              <h4>MUI</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Typescript</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -37,11 +41,23 @@ export default function Experience() {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>React Redux</h4>
+              <h4>RTK</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Framer Motion</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Swiper</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Victory Charts</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>D3 Charts</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
@@ -86,7 +102,7 @@ export default function Experience() {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>RESTful API's</h4>
+              <h4>RESTful API&apos;s</h4>
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />

@@ -1,9 +1,8 @@
+/* eslint-disable import/no-unresolved */
 import React from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { Autoplay, Pagination, Navigation } from "swiper";
-
 import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -11,8 +10,6 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "./testimonials.css";
 
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 
 export default function Testimonials() {
   const testimonials = [
@@ -48,7 +45,7 @@ export default function Testimonials() {
       id: 3,
       link: "https://www.linkedin.com/in/kristina-lim-01/",
       name: "Kris Lim",
-      role: "Team member",
+      role: "Team Member",
       test: "Corey is a reliable teammate and a hardworking programmer that I had the pleasure of collaborating and working with. During our time for a group project, he continued to impress me with his insight into some problems we had run into and communicated it with precision. His dependability and strong work ethic is what makes him a great developer and a teammate.",
     },
   ];
@@ -60,14 +57,14 @@ export default function Testimonials() {
         className="container testimonials__container"
         modules={[Pagination, Autoplay, Navigation]}
         spaceBetween={40}
-        loop={true}
+        loop
         slidesPerView={1}
         autoplay={{
           delay: 5500,
           disableOnInteraction: false,
         }}
         pagination={{ clickable: true }}
-        navigation={true}
+        navigation
       >
         {testimonials.map((test) => (
           <SwiperSlide className="testimonial" key={test.id}>

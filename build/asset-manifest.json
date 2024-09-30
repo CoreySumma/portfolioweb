@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolioweb/static/css/main.8f3e4a61.css",
-    "main.js": "/portfolioweb/static/js/main.039a2311.js",
+    "main.css": "/portfolioweb/static/css/main.1c8e68b9.css",
+    "main.js": "/portfolioweb/static/js/main.70319e08.js",
     "static/media/me3.png": "/portfolioweb/static/media/me3.3a85512c4f0940d30cad.png",
     "static/media/spaceman.png": "/portfolioweb/static/media/spaceman.8e66e1c39d9f59c4576f.png",
+    "static/media/mistate.png": "/portfolioweb/static/media/mistate.77f64e265030d670f12c.png",
     "static/media/aicardshop.png": "/portfolioweb/static/media/aicardshop.0ac1a769d5c4f8a59994.png",
     "static/media/game_shelf.png": "/portfolioweb/static/media/game_shelf.84c2d41c97d633caa817.png",
-    "static/media/mistate.png": "/portfolioweb/static/media/mistate.2c6faef94e6bde7e0cf5.png",
     "static/media/codemonk.png": "/portfolioweb/static/media/codemonk.a9ddc72780abdcfed536.png",
     "static/media/spotlabs2.png": "/portfolioweb/static/media/spotlabs2.8e6caac1d65699cc1649.png",
     "static/media/abstract.png": "/portfolioweb/static/media/abstract.f7aa17c0ca6606cd9431.png",
+    "static/media/verosint.png": "/portfolioweb/static/media/verosint.429788058a7690fb92ff.png",
     "static/media/MeatyMail.png": "/portfolioweb/static/media/MeatyMail.139a12d6171cf4c889da.png",
     "static/media/SMSss.png": "/portfolioweb/static/media/SMSss.dfcbe3dd899d50476c58.png",
     "static/media/astronomy.png": "/portfolioweb/static/media/astronomy.d5d524c337eb20a33f7c.png",
     "static/media/chatbot.png": "/portfolioweb/static/media/chatbot.e3b556898b4028ad58e6.png",
     "static/media/corbot.png": "/portfolioweb/static/media/corbot.1045fb808ef3dae42661.png",
-    "static/media/CoreySumma.pdf": "/portfolioweb/static/media/CoreySumma.852f65a4f85949295564.pdf",
+    "static/media/CoreySumma.pdf": "/portfolioweb/static/media/CoreySumma.f616e2c71b8dc6f6a5e4.pdf",
     "index.html": "/portfolioweb/index.html",
-    "main.8f3e4a61.css.map": "/portfolioweb/static/css/main.8f3e4a61.css.map",
-    "main.039a2311.js.map": "/portfolioweb/static/js/main.039a2311.js.map"
+    "main.1c8e68b9.css.map": "/portfolioweb/static/css/main.1c8e68b9.css.map",
+    "main.70319e08.js.map": "/portfolioweb/static/js/main.70319e08.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f3e4a61.css",
-    "static/js/main.039a2311.js"
+    "static/css/main.1c8e68b9.css",
+    "static/js/main.70319e08.js"
   ]
 }

@@ -6,6 +6,5 @@
 - Javascript
 - CSS
 - Gh-Pages
-- Lensa AI
 
 

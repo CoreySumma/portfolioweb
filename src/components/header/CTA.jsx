@@ -2,7 +2,7 @@ import React from 'react';
 import CV from '../../assets/CoreySumma.pdf';
 // import {BsChatSquareTextFill} from 'react-icons/bs'
 
-const CTA = () => {
+function CTA() {
   return (
     <div className="cta">
       <a href={CV} download className="btn">
