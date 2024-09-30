@@ -28,7 +28,20 @@ nav a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
 
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.10); 
+  }
+  100% {
+    transform: scale(1); 
+  }
+}
+
 nav a.active {
   background: var(--color-bg);
   color: var(--color-white);
+  animation: bounce 0.3s ease-in-out;
 }

@@ -1,12 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Contact from "./components/contact/Contact";
 import Experience from "./components/experience/Experience";
 import Header from "./components/header/Header";
 import Intro from "./components/intro/Intro";
 import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import StickyNav from "./components/stickynav/StickyNav";
+import Footer from "./components/footer/Footer";
 
 export default function App() {
   return (
@@ -41,7 +41,7 @@ export default function App() {
       >
         <Testimonials />
       </motion.div>
-      <Contact />
+      <Footer />
     </>
   );
 }
