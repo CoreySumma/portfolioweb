@@ -1,4 +1,5 @@
-import React from "react";
+/* eslint-disable consistent-return */
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Experience from "./components/experience/Experience";
 import Header from "./components/header/Header";
@@ -9,15 +10,22 @@ import StickyNav from "./components/stickynav/StickyNav";
 import Footer from "./components/footer/Footer";
 
 export default function App() {
+  const [bounceSocials, setBounceSocials] = useState(false);
+
+  const handleSocialsAnimation = () => {
+    setTimeout(() => setBounceSocials(true), 1000);
+    setTimeout(() => setBounceSocials(false), 1460);
+  };
+
   return (
     <>
-      <StickyNav />
+      <StickyNav handleSocialsAnimation={handleSocialsAnimation} />
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <Header />
+        <Header handleSocialsAnimation={handleSocialsAnimation} />
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -41,7 +49,7 @@ export default function App() {
       >
         <Testimonials />
       </motion.div>
-      <Footer />
+      <Footer bounceSocials={bounceSocials} />
     </>
   );
 }

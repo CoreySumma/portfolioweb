@@ -1,14 +1,17 @@
-import React from 'react';
-import CV from '../../assets/CoreySumma.pdf';
-// import {BsChatSquareTextFill} from 'react-icons/bs'
+import React from "react";
+import CV from "../../assets/CoreySumma.pdf";
 
-function CTA() {
+function CTA({ handleSocialsAnimation }) {
   return (
     <div className="cta">
       <a href={CV} download className="btn">
         Download CV
       </a>
-      <a href="#contact" className="btn btn-primary">
+      <a
+        href="#contact"
+        onClick={handleSocialsAnimation}
+        className="btn btn-primary"
+      >
         Get In Touch
       </a>
     </div>

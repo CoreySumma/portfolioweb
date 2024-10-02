@@ -6,7 +6,7 @@ import { BiMessageSquareDetail } from "react-icons/bi";
 
 import "./stickyNav.css";
 
-function StickyNav() {
+function StickyNav({ handleSocialsAnimation }) {
   const [activeNav, setActiveNav] = useState("#home");
   return (
     <nav>
@@ -40,7 +40,10 @@ function StickyNav() {
       </a>
       <a
         href="#contact"
-        onClick={() => setActiveNav("#contact")}
+        onClick={() => {
+          setActiveNav("#contact");
+          handleSocialsAnimation();
+        }}
         className={activeNav === "#contact" ? "active" : ""}
       >
         <BiMessageSquareDetail />

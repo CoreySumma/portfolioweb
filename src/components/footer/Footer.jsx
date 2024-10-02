@@ -4,7 +4,8 @@ import { AiFillInstagram, AiOutlineMail } from "react-icons/ai";
 import React from "react";
 import "./footer.css";
 
-export default function Footer() {
+
+export default function Footer({ bounceSocials }) { 
   return (
     <footer>
       <section id="contact">
@@ -13,6 +14,7 @@ export default function Footer() {
             href="https://www.linkedin.com/in/coreysumma/"
             target="_blank"
             rel="noreferrer"
+            className={bounceSocials ? 'shake' : ''}
           >
             <BsLinkedin />
           </a>
@@ -20,6 +22,7 @@ export default function Footer() {
             href="https://github.com/CoreySumma"
             target="_blank"
             rel="noreferrer"
+            className={bounceSocials ? 'shake' : ''}
           >
             <FaGithub />
           </a>
@@ -27,6 +30,7 @@ export default function Footer() {
             href="https://instagram.com/coreysumma"
             target="_blank"
             rel="noreferrer"
+            className={bounceSocials ? 'shake' : ''}
           >
             <AiFillInstagram />
           </a>
@@ -34,6 +38,7 @@ export default function Footer() {
             href="mailto:CoreySumma@gmail.com"
             target="_blank"
             rel="noreferrer"
+            className={bounceSocials ? 'shake' : ''}
           >
             <AiOutlineMail />
           </a>
