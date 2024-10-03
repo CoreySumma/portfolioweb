@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolioweb/static/css/main.3a972553.css",
-    "main.js": "/portfolioweb/static/js/main.bd3d5844.js",
+    "main.js": "/portfolioweb/static/js/main.2ff649ae.js",
     "static/media/me3.png": "/portfolioweb/static/media/me3.3a85512c4f0940d30cad.png",
     "static/media/spaceman.png": "/portfolioweb/static/media/spaceman.8e66e1c39d9f59c4576f.png",
     "static/media/mistate.png": "/portfolioweb/static/media/mistate.77f64e265030d670f12c.png",
@@ -16,13 +16,13 @@
     "static/media/astronomy.png": "/portfolioweb/static/media/astronomy.d5d524c337eb20a33f7c.png",
     "static/media/chatbot.png": "/portfolioweb/static/media/chatbot.e3b556898b4028ad58e6.png",
     "static/media/corbot.png": "/portfolioweb/static/media/corbot.1045fb808ef3dae42661.png",
-    "static/media/CoreySumma.pdf": "/portfolioweb/static/media/CoreySumma.f616e2c71b8dc6f6a5e4.pdf",
+    "static/media/CoreySumma.pdf": "/portfolioweb/static/media/CoreySumma.14ce4489b8b2c03a09dc.pdf",
     "index.html": "/portfolioweb/index.html",
     "main.3a972553.css.map": "/portfolioweb/static/css/main.3a972553.css.map",
-    "main.bd3d5844.js.map": "/portfolioweb/static/js/main.bd3d5844.js.map"
+    "main.2ff649ae.js.map": "/portfolioweb/static/js/main.2ff649ae.js.map"
   },
   "entrypoints": [
     "static/css/main.3a972553.css",
-    "static/js/main.bd3d5844.js"
+    "static/js/main.2ff649ae.js"
   ]
 }
