@@ -3,13 +3,12 @@ import { AiOutlineUser, AiOutlineHome } from "react-icons/ai";
 import { BsClipboardCheck } from "react-icons/bs";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { BiMessageSquareDetail } from "react-icons/bi";
-
 import "./stickyNav.css";
 
 function StickyNav({ handleSocialsAnimation }) {
   const [activeNav, setActiveNav] = useState("#home");
   return (
-    <nav>
+<nav> 
       <a
         href="#home"
         onClick={() => setActiveNav("#home")}

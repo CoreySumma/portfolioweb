@@ -20,24 +20,18 @@ export default function App() {
   return (
     <>
       <StickyNav handleSocialsAnimation={handleSocialsAnimation} />
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-      >
         <Header handleSocialsAnimation={handleSocialsAnimation} />
-      </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.5, ease: "easeIn" }}
       >
         <Intro />
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.5, ease: "easeIn" }}
       >
         <Experience />
       </motion.div>
@@ -45,7 +39,7 @@ export default function App() {
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.5, ease: "easeIn" }}
       >
         <Testimonials />
       </motion.div>
