@@ -45,6 +45,10 @@ export default function Experience() {
             </article>
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
+              <h4>Redux</h4>
+            </article>
+            <article className="experience__details">
+              <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>Framer Motion</h4>
             </article>
             <article className="experience__details">
@@ -58,10 +62,6 @@ export default function Experience() {
             <article className="experience__details">
               <BsFillPatchCheckFill className="experience__details-icon" />
               <h4>D3 Charts</h4>
-            </article>
-            <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
-              <h4>Swiper</h4>
             </article>
           </div>
         </div>
