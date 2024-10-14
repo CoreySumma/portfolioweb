@@ -1,6 +1,7 @@
+
 .container.testimonials__container {
     width: 60%;
-    padding-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 
 .client__avatar {
@@ -26,6 +27,7 @@
     border-radius: 2rem;
     user-select: none;
     font-size: larger;
+    min-height: 430px;
 }
 
 .client__review {

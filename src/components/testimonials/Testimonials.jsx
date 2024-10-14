@@ -10,9 +10,22 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "./testimonials.css";
 
-
 export default function Testimonials() {
   const testimonials = [
+    {
+      id: 7,
+      link: "https://www.linkedin.com/in/summerely/",
+      name: "Jay Bollinger",
+      role: "Product Manager",
+      test: "Verosint is a seed-funded startup that uses AI to detect and prevent threats to accounts on your platform. We hired Corey as a FE developer for the Verosint application, and I was his product manager. What makes Corey so incredibly awesome is his natural ability to communicate effectively (very important in our 100% remote/WFH company), flexibility and receptiveness to changes in projects and priorities, and that he repeatedly rose to the occasion on several, very complex FE projects. See the Circadian Rhythm tile in the product demo on our verosint.com website? Or the Location History tile that shows pie charts of successful vs. failed login attempts by country? Yeah, those were all informed, developed, tested, and shipped by Corey. I wholeheartedly recommend Corey for your company and would gladly be a referral.",
+    },
+    {
+      id: 6,
+      link: "https://www.linkedin.com/in/summerely/",
+      name: "Summer Ely",
+      role: "Frontend Software Engineer",
+      test: "I had the pleasure of working closely with Corey during his time at Verosint, where we were the two frontend developers. He consistently demonstrated a strong work ethic and eagerness to learn. His positive attitude, combined with his dedication, makes him a valuable team member.",
+    },
     {
       id: 5,
       link: "https://www.linkedin.com/in/duane-teeters/",
