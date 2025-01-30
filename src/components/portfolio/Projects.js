@@ -73,7 +73,7 @@ const projects = [
       "A MERN stack mindfulness digital journal web application designed to track a users emotional state. Login with email: guest@email.com pw: visitor123! to take a tour of the website.",
     technologies:
       "HTML | CSS | JavaScript | React | Node.js | Express | MongoDB",
-    link: "https://mistate.herokuapp.com/",
+    link: "https://mern-mistate.onrender.com/",
     github: "https://github.com/CoreySumma/mern-mistate",
   },
   {
